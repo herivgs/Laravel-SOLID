@@ -1,18 +1,21 @@
 # Laravel-SOLID
 
-Requirements:
+### Requirements:
 - PHP 7.0^
 - Nodejs
 - Composer
 
-Install Dependencies:
+### Install Dependencies:
 - npm install
 - composer install
 
-Migrate Database
+### Migrate Database
 - php artisan migrate
 - php artisan db:seed
 
-Runing Project
+### Testing
+- .\vendor\bin\phpunit
+
+### Runing Project
 - npm run dev
 - php artisan serve
